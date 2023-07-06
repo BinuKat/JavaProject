@@ -6,27 +6,31 @@ public class MainLaptop {
 		// TODO Auto-generated method stub
 //instantiating the class
 		
-		Laptop hP= new Laptop();
-		hP.brandName="hP";
-		hP.modelNumber= 5;
-		hP.isCameraPresent= true;
+		//Lipstick = new Laptop();
+		//hP.brandName="hP";
+		//hP.modelNumber= 5;
+		//hP.isCameraPresent= true;
 		
 		//calling the method
-		hP.attendmeetings();
-		hP.workfromanywhere();
+		//hP.attendMeetings();
+		//hP.workfromanywhere();
 	
-	System.out.println("******************************");
+	//System.out.println("******************************");
 	
 //instantiating the class
-Laptop acer=new Laptop();
-acer.brandName="acer";
-acer.modelNumber=12;
-acer.isCameraPresent= true;
-	}}
+Lipstick mack =new Lipstick();
+mack.brandName1="mack";
+mack.manufYear=2023;
+mack.leadQuantity= 0.1;
 
-// instantiating the class
-
+mack.makeUp();
 	
+mack.inExpensiveProduct();
+	}
+
+}
+
+
 
 
 
