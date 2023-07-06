@@ -23,7 +23,7 @@ public class OperatiorsMain {
 //----------------------------------------
 		ArithmeticOperators ao1 = new ArithmeticOperators();
 
-		ao1.num3 = 15.5;
+		ao1.num3 = (int) 15.5;
 		ao1.num4 = 3.2;
 		ao1.divideTwoNumbers();
 
